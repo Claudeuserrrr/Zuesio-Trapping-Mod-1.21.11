@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "zeuss_trapping_utility",
+  "version": "${version}",
+  "name": "Zuesio's Trapping Utilities",
+  "description": "Tree felling, an arrow and TNT minecart HUD, trap-building commands, a /bot dummy and bounty name copying. (1.21.11 port)",
+  "authors": [
+    "Zeus"
+  ],
+  "license": "MIT",
+  "environment": "*",
+  "accessWidener": "zeuss_trapping_utility.accesswidener",
+  "entrypoints": {
+    "main": [
+      "com.example.timber.ZeusTrappingUtility"
+    ],
+    "client": [
+      "com.example.timber.ZeusTrappingUtilityClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
